@@ -1,0 +1,52 @@
+[
+  {
+    "codigo": 101,
+    "marca": "pepe",
+    "modelo": "asus",
+    "precio": 650000.0,
+    "stock": 15,
+    "idAsociado": 1,
+    "tipo": "Electrónico",
+    "garantiaMeses": 12
+  },
+  {
+    "codigo": 102,
+    "marca": "Sony",
+    "modelo": "WH-1000XM5",
+    "precio": 420000.0,
+    "stock": 8,
+    "idAsociado": 3,
+    "tipo": "Electrónico",
+    "garantiaMeses": 6
+  },
+  {
+    "codigo": 103,
+    "marca": "Arcor",
+    "modelo": "Alfajor Triple",
+    "precio": 1500.0,
+    "stock": 200,
+    "idAsociado": 2,
+    "tipo": "Alimenticio",
+    "fechaVencimiento": "20/12/2026"
+  },
+  {
+    "codigo": 104,
+    "marca": "Molinos",
+    "modelo": "Aceite ",
+    "precio": 500100.0,
+    "stock": 800,
+    "idAsociado": 4,
+    "tipo": "Alimenticio",
+    "fechaVencimiento": "15/04/2007"
+  },
+  {
+    "codigo": 1223,
+    "marca": "asd",
+    "modelo": "aweasd",
+    "precio": 100023.0,
+    "stock": 123,
+    "idAsociado": 2,
+    "tipo": "Electrónico",
+    "garantiaMeses": 6
+  }
+]

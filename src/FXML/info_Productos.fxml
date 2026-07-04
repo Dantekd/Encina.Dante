@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="440.0" prefWidth="473.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Info_ProductosController">
+    <Label layoutX="125.0" layoutY="35.0" text="Tipo:" />
+      <ChoiceBox fx:id="cbTipo" layoutX="205.0" layoutY="30.0"  prefWidth="150.0" />
+
+      <Label layoutX="125.0" layoutY="75.0" text="Codigo:" />
+      <TextField fx:id="txtCodigo" layoutX="205.0" layoutY="70.0" />
+
+      <Label layoutX="125.0" layoutY="115.0" text="Marca:" />
+      <TextField fx:id="txtMarca" layoutX="205.0" layoutY="110.0" />
+
+      <Label layoutX="125.0" layoutY="155.0" text="Modelo:" />
+      <TextField fx:id="txtModelo" layoutX="205.0" layoutY="150.0" />
+
+      <Label layoutX="125.0" layoutY="216.0" text="Stock:" />
+      <TextField fx:id="txtStock" layoutX="206.0" layoutY="212.0" />
+
+      <Label layoutX="120.0" layoutY="256.0" text="Proveedor:" />
+
+      <Button fx:id="btnaceptar" layoutX="81.0" layoutY="370.0" mnemonicParsing="false" onAction="#aceptar" prefHeight="39.0" prefWidth="89.0" text="aceptar" />
+      <Button fx:id="btncancelar" layoutX="334.0" layoutY="370.0" mnemonicParsing="false" onAction="#cancelar" prefHeight="39.0" prefWidth="89.0" text="cancelar" />
+   <Label layoutX="127.0" layoutY="183.0" text="Precio:" />
+   <TextField fx:id="txtPrecio" layoutX="205.0" layoutY="179.0" />
+   <ChoiceBox fx:id="cbProveedor" layoutX="205.0" layoutY="252.0"  prefWidth="150.0" />
+
+   <Label fx:id="lblGarantia" layoutX="90.0" layoutY="296.0" text="Garantía (meses):" />
+   <TextField fx:id="txtGarantia" layoutX="205.0" layoutY="292.0" />
+
+   <Label fx:id="lblVencimiento" layoutX="95.0" layoutY="296.0" text="Vencimiento (dd/mm/aaaa):" />
+   <TextField fx:id="txtVencimiento" layoutX="255.0" layoutY="292.0" />
+</AnchorPane>

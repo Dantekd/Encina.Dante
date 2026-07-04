@@ -1,0 +1,4 @@
+Listado de productos con precio superior a $500.000
+_____________________________________________________
+Electrónico | codigo=101, marca=pepe, modelo=asus, precio=$650000.0, stock=15, idProveedor=1, garantía= 12 meses
+Alimenticio | codigo=104, marca=Molinos, modelo=Aceite , precio=$500100.0, stock=800, idProveedor=4, vencimiento=15/04/2007
